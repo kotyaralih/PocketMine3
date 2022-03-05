@@ -249,8 +249,6 @@ JIT_WARNING
 		define('pocketmine\VERSION', $version->getFullVersion(true));
 
 		$composerGitHash = InstalledVersions::getReference('pocketmine/pocketmine-mp');
-		
-		}
 
 		$opts = getopt("", ["data:", "plugins:", "no-wizard", "enable-ansi", "disable-ansi"]);
 
